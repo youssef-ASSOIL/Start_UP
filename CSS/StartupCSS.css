@@ -4,6 +4,11 @@ h1{
 	color:red;
 	font-weight: bold;
 }
+h3{
+    color: gray;
+    font-size: 45px;
+    text-align: center;
+}
 .box{
     width: 300px;
     padding: 40px;
