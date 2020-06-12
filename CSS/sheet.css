@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 html{
     box-sizing: border-box;
     font-size: 16px;
@@ -27,14 +27,6 @@ nav1 ul{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-=======
-h1{
-    text-align: center;   
 }
 
-body{
-	/*for background image*/
-	background-image: url('../pictures/pc2.jpg');
-    background-size: cover;
->>>>>>> 8c188844b7c970619a9aa172a534ab2d6043f941
-}
+
