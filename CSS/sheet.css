@@ -1,3 +1,9 @@
 h1{
-    text-align: center;
+    text-align: center;   
+}
+
+body{
+	/*for background image*/
+	background-image: url('../pictures/pc2.jpg');
+    background-size: cover;
 }
