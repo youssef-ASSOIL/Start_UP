@@ -1,3 +1,29 @@
-h1{
-    text-align: center;
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+.header1{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 105vh;
+    padding-top: 20px;
+
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+    position: absolute;
+    transform: all 0.3s ;
+    background: white;
+    z-index: 9;
+    top: 0px;
+    width: 100%;
+}
+nav1 ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
