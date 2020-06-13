@@ -1,32 +1,52 @@
-
-html{
-    box-sizing: border-box;
-    font-size: 16px;
-
+body
+{
+    background-image: url('../pictures/pc2.jpg');
+    background-size:cover;
+    background-color: rgba(255,255,255,0,2);
 }
-.header1{
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    height: 105vh;
-    padding-top: 20px;
-
+/*id=np1 : parte 1 fnavigateur (left)*/
+.np1 li
+{
+    display: inline;
+    float: left;
+    margin-left: 30px;
+    border: solid 1px white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 60px;
+    height: 18px;
+    text-align: center;
 }
-.nav1{
-    display: flex;
-    justify-content: center;
-    padding: 20px 30px;
+/* id=np1 : parte 2 fnavigateur (right)*/
+.np2 li
+{
+    display: inline;
+    float: right;
+    margin-right: 30px;
+    border: solid 1px white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 60px;
+    height: 18px;
+    text-align: center;
+}
+.np1 li  a
+{
+    text-decoration:none;
+    font-size:20px;
+    color :rgb(255,220,186);
+}
+.np2 li  a
+{
+    text-decoration:none;
+    font-size:20px;
+    color: white;
+}
+#logo
+{
+    margin-top: -100px;
+    margin-left: 8%;
+    width: 250px;
     position: absolute;
-    transform: all 0.3s ;
-    background: white;
-    z-index: 9;
-    top: 0px;
-    width: 100%;
 }
-nav1 ul{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
 
