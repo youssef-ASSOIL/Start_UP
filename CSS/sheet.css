@@ -1,6 +1,12 @@
+/*color dyal les titres (ADD BY YOUSSEF)*/
+:root{
+    --main-color:#20B2AA;
+}
+/*bdlo color lbghito wlkin mtms7uch --main-color*/
+
 body
 {
-    background-image: url('../pictures/back.jpg');
+    background-image: url('../pictures/pixel1.jpeg');
     background-size:cover;
 }
 /*id=np1 : parte 1 fnavigateur (left)*/
@@ -56,4 +62,107 @@ body
     width: 300px;
     position: absolute;
 }
+/* START TEXT INTRODUCTION*/
+.introduction-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+}
+.introduction-text h1{
+font-size: 40px;
+}
+.introduction-text h1 span{
+    color:var(--main-color);
+}
+/* END TEXT INTRODUCTION*/
+/* Start Contact US (ADD BY YOUSSEF)*/
+.contact {
+min-height: 600px;
+background-image: url('../pictures/maps.png');
+background-size: cover;
+padding-top: 80px;
+padding-bottom: 80px;
+position: absolute;
+bottom: -800px;
+width: 1600px;
+}
+.contact .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .6);
+}
+.contact .container{
+    position: relative;
+    z-index: 2 
+}
+.contact h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--main-color);
+    margin: 0 0 60px;
+    text-align: center;
+}
+.contact form {
+    overflow: hidden;
+    max-width: 800px;
+    margin: auto;
+}
+.contact form .left {
+float: left;
+width: 47%;
+}
+.contact form .right{
+float: right;
+width: 47%;
+}
+.contact form input:not([type="Submit"]),
+.contact form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #CCC;
+    background-color: rgba(218, 218, 218, 0.19);
+}
+.contact form input:not([type="Submit"]):focus,
+.contact form textarea:focus{
+    outline: 1px solid var(--main-color);
+}
+.contact form input {
+    height: 40px;
+}
+.contact form textarea {
+    height: 150px;
+}
+.contact form input[type="Submit"]{
+padding: 10px;
+width: 100%;
+border-color: transparent;
+background-color: var(--main-color);
+color: #fff;
+cursor: pointer;
+}
+.contact form textarea:focus::-webkit-input-placeholder ,
+.contact form input:not([type="Submit"]):focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: .3s;  
+}
+.contact form textarea:focus:-ms-input-placeholder,
+.contact form input:not([type="Submit"]):focus:-ms-input-placeholder {
+  opacity: 0;
+  transition: .3s;  
+}
+.contact form textarea:focus::placeholder 
+.contact form input:not([type="Submit"]):focus::placeholder{
+  opacity: 0;
+  transition: .3s;  
+}
+/* End Contact US*/
 
