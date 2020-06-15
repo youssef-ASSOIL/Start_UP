@@ -85,34 +85,18 @@ body
     width: 300px;
     position: absolute;
 }
-/* START TEXT INTRODUCTION*/
-.introduction-text{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 2;
-    color: #fff;
-    text-align: center;
-}
-.introduction-text h1{
-font-size: 40px;
-}
-.introduction-text h1 span{
-    color:var(--main-color);
-}
-/* END TEXT INTRODUCTION*/
+
 /* Start Contact US (ADD BY YOUSSEF)*/
 .contact {
-min-height: 600px;
+min-height: 500px;
 background-image: url('../pictures/maps.png');
 background-size: cover;
 padding-top: 80px;
 padding-bottom: 80px;
 position: absolute;
-bottom: -800px;
+top: 100px;
 width: 1330px;
-margin-left: 6px
+margin-left: 15px
 }
 .contact .overlay{
     position: absolute;
