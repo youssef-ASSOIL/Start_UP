@@ -1,0 +1,140 @@
+/*color dyal les titres (ADD BY YOUSSEF)*/
+:root{
+    --main-color:#20B2AA;
+}
+/*bdlo color lbghito wlkin mtms7uch --main-color*/
+
+/*body
+{
+    background-image: url('../pictures/back2f.jpg');
+    background-size:cover;
+
+}*/
+
+/*
+/*ana ra bdalt drop down logo ayji fjanb */
+.logo
+{
+  height: 80px;
+  position: absolute;
+  top: -8px;
+}
+.nav1
+{
+     background-image: linear-gradient(to bottom right, white, black);
+    overflow: auto;
+    height: 60px;
+    padding-top: 15px;
+}
+.drop
+{
+    margin-right: 400px
+}
+.drop li
+{
+   float: right;
+   display: inline;
+   margin-right: 30px;
+}
+.drop li a
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.drop li a:hover
+{
+    color:#20B2AA;
+    border-bottom: solid 1px #20B2AA
+}
+.sign
+{
+    position: absolute;
+    right: 10px;
+    top:10px;
+}
+.sign li
+{
+  float: left;
+  display: inline;
+  margin-right: 20px;
+}
+.sign #sign_up 
+{
+    background-color:#20B2AA;
+    width: 80px;
+    height: 40px;
+    text-align:center;
+    padding-top:8px;
+    border-radius:5px;
+}
+.sign #sign_in 
+{
+    width: 80px;
+    height: 40px;
+    text-align:center;
+    padding-top:8px;
+    border: solid 1px #20B2AA;
+    border-radius:5px;
+}
+.sign #sign_up a
+{
+   color: white;
+   font-size: 16px
+}
+.sign #sign_in a
+{
+   color: #20B2AA;
+   font-size: 16px
+}
+#logo
+{
+    margin-top: -120px;
+    margin-left: 3%;
+    width: 300px;
+    position: absolute;
+}
+/*Start our features*/
+.features {
+padding-top: 80px;
+padding-bottom: 80px;
+}
+.features h2{
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--main-color);
+  margin: 0 0 60px;
+  text-align: center;
+}
+.features .feat-box {
+  width: calc(100% / 3);
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.features .feat-box img {
+    width: 300px;
+}
+.features .feat-box h4 {
+   font-size: 22px;
+   margin: 15px 0 40px;
+   position: relative;
+}
+.features .feat-box h4:before{
+ content: ''; 
+ width: 40px;
+ height: 4px;
+ background-color: var(--main-color);
+ position: absolute;
+ left: 50%;
+ margin-left: -20px;
+ bottom: -22px;
+}
+.features .feat-box p {
+   width: 80px;
+   margin: 0 auto;
+   line-height: 1.7;
+   color: #a7a7a7f0;
+
+}
+/*End our features*/
