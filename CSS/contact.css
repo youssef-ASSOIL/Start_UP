@@ -19,7 +19,7 @@ body
 }
 .nav1
 {
-     background-image: linear-gradient(to bottom right, white, black);
+    background-image: linear-gradient(to bottom right, white, black);
     overflow: auto;
     height: 60px;
     padding-top: 15px;

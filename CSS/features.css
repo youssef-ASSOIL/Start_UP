@@ -94,7 +94,6 @@
     width: 300px;
     position: absolute;
 }
-/*Start our features*/
 .features {
 padding-top: 80px;
 padding-bottom: 80px;
@@ -108,7 +107,7 @@ padding-bottom: 80px;
 }
 .features .feat-box {
   width: calc(100% / 3);
-  float: left;
+  float: right;
   text-align: center;
   margin-bottom: 20px;
 }
