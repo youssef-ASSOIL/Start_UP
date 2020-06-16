@@ -138,3 +138,8 @@ padding-bottom: 80px;
 
 }
 /*End our features*/
+.recize-pic{
+  height: 150px;
+object-fit: cover;
+object-position: center center;
+}
