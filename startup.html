@@ -4,8 +4,12 @@
 		  <meta charset="utf-8">
 		   <meta charset="utf-8">
 		  <meta name="viewport" content="width=device-width, initial-scale=1">
-		  <link rel="stylesheet" href="css/jquery.bxslider.css">
-		  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+		 
 		  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -32,73 +36,116 @@
 			</nav>
         
 			<!--introduction-->
-			<div class="bxslider">
-				<div class="bg-video">
-					<video playsinline="playsinline"autoplay="autoplay"muted="muted"loop="loop"id="herovideo"width="100%">
-						<source src="video/video1.mp4">
-					</video>
-					<div class="container">
-						<div class="vidcontent">
-							<h1 class="text-left">Welcome to easy by Code</h1>
-							<p class="text-left">
-								you have made the right choice for being here
-							</p>
-							<a href=""id="vidBtn">Click here</a>
-						</div>
-					</div>
-					<ul class="social-icons list-inline">
-						<li><a href=""><i class="fa fa-facebook"></i></a></li>
-						<li><a href=""><i class="fa fa-twitter"></i></a></li>
-						<li><a href=""><i class="fa fa-instagram"></i></a></li>
-					</ul>
-				</div>
-<!--hadi img tanya-->
-				<div class="bg-video">
-					<video playsinline="playsinline"autoplay="autoplay"muted="muted"loop="loop"id="herovideo"width="100%">
-						<source src="video/video2.mp4">
-					</video>
-					<div class="container">
-						<div class="vidcontent">
-							<h1 class="text-left">𝓦𝓮𝓵𝓬𝓸𝓶𝓮 𝓽𝓸 𝓮𝓪𝓼𝔂 𝓫𝔂 𝓬𝓸𝓭𝓮</h1>
-							<p class="text-left">
-								you have made the right choice for being here
-							</p>
-							<a href=""id="vidBtn">Click here</a>
-						</div>
-					</div>
-					<ul class="social-icons list-inline">
-						<li><a href=""><i class="fa fa-facebook"></i></a></li>
-						<li><a href=""><i class="fa fa-twitter"></i></a></li>
-						<li><a href=""><i class="fa fa-instagram"></i></a></li>
-					</ul>
-				</div>
+			
+			<div id="slider">
 
-<!--hadi talta-->
-
-				<div class="bg-video">
-					<video playsinline="playsinline"autoplay="autoplay"muted="muted"loop="loop"id="herovideo"width="100%">
-						<source src="video/video3.mp4">
-					</video>
-					<div class="container">
-						<div class="vidcontent">
-							<h1 class="text-left">𝓦𝓮𝓵𝓬𝓸𝓶𝓮 𝓽𝓸 𝓮𝓪𝓼𝔂 𝓫𝔂 𝓬𝓸𝓭𝓮</h1>
-							<p class="text-left">
-								you have made the right choice for being here
-							</p>
-							<a href=""id="vidBtn">Click here</a>
-						</div>
+				<div id="headslider" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+					<li data-target="#headslider" data-slide-to="0" class="active"></li>
+					<li data-target="#headslider" data-slide-to="1"></li>
+					<li data-target="#headslider" data-slide-to="2"></li>
+				  </ol>
+				  <div class="carousel-inner">
+					<div class="carousel-item active">
+					  <img src="pictures/pick1.jpg"width="100%" class="d-block img-fluid" >
+					  <div class="carousel-caption">
+						  <h5>MAKE YOUR OWN WEBSITE</h5>
+					  </div>
 					</div>
-					<ul class="social-icons list-inline">
-						<li><a href=""><i class="fa fa-facebook"></i></a></li>
-						<li><a href=""><i class="fa fa-twitter"></i></a></li>
-						<li><a href=""><i class="fa fa-instagram"></i></a></li>
-					</ul>
+					<div class="carousel-item">
+					  <img src="pictures/pick2.jpg"width="100%" class="d-block img-fluid" >
+					  <div class="carousel-caption">
+						  <h5>CREAT AN AWSOME WEBSITE</h5>
+					  </div>
+					</div>
+					<div class="carousel-item">
+					  <img src="pictures/pick3.jpg"width="100%"class="d-block img-fluid" >
+					  <div class="carousel-caption">
+						  <h5>BUSINESS WEBSITE DESIGNE</h5>
+					  </div>
+					</div>
+				  </div>
+				  <a class="carousel-control-prev" href="#headslider" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#headslider" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				  </a>
+				</div>
+					
 				</div>
 
+		<!--team's section guys-->
+		<section id="team">
+			<div class="container">
+				<h1>Our Team</h1>
+				<div class="row">
+					<div class="col-md-3 profile-pic text-center">
+						<div class="img-box">
+							<img src="pictures/abdel.jpg"width="70%">
+							<ul>
+								<a href="Abdelilah Noury"><li><i class="fa fa-facebook"></i></li></a>
+								<a href="abdelnoury.39"><li><i class="fa fa-instagram"></i></li></a>
+								<a href="abdelilah noury"><li><i class="fa fa-linkedin"></i></li></a>
+							</ul>
+							
+						</div>
+						<h2>Abdelilah NOURY</h2>
+						<h3>Software engineer</h3>
+						<p>Abdelilah NOURY is a software engineer</p>
+					</div>
+		
+					<div class="col-md-3 profile-pic text-center">
+						<div class="img-box">
+							<img src="pictures/ibra.jpg"width="70%">
+							<ul>
+								<a href="Youssef ASSOIL"><li><i class="fa fa-facebook"></i></li></a>
+								<a href="Youssef ASSOIL"><li><i class="fa fa-instagram"></i></li></a>
+								<a href="Youssef ASSOIL"><li><i class="fa fa-linkedin"></i></li></a>
+							</ul>
+							
+						</div>
+						<h2>Youssef ASSOIL</h2>
+						<h3>Software engineer</h3>
+						<p>Youssef ASSOI is a software engineer</p>
+					</div>
+					
+					<div class="col-md-3 profile-pic text-center">
+						<div class="img-box">
+							<img src="pictures/youss.jpg"width="58%">
+							<ul>
+								<a href="Youssef ASSOIL"><li><i class="fa fa-facebook"></i></li></a>
+								<a href="Youssef ASSOIL"><li><i class="fa fa-instagram"></i></li></a>
+								<a href="Youssef ASSOIL"><li><i class="fa fa-linkedin"></i></li></a>
+							</ul>
+							
+						</div>
+						<h2>Youssef ASSOIL</h2>
+						<h3>Software engineer</h3>
+						<p>Youssef ASSOI is a software engineer</p>
+					</div>
+					<div class="col-md-3 profile-pic text-center">
+						<div class="img-box">
+							<img src="https://images.pexels.com/photos/2955277/pexels-photo-2955277.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"width="45%"class="img-responsive">
+							<ul>
+								<a href="Youssef ASSOIL"><li><i class="fa fa-facebook"></i></li></a>
+								<a href="Youssef ASSOIL"><li><i class="fa fa-instagram"></i></li></a>
+								<a href="Youssef ASSOIL"><li><i class="fa fa-linkedin"></i></li></a>
+							</ul>
+							
+						</div>
+						<h2>Youssef ASSOIL</h2>
+						<h3>Software engineer</h3>
+						<p>Youssef ASSOI is a software engineer</p>
+					</div>
+				</div>
+				
 			</div>
-
-
-		<!--END paragraphe-->
+			
+		</section>
+		
 			
 			<!--  connection with java script -->
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.js"></script>
