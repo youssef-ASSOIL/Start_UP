@@ -3,22 +3,12 @@
     --main-color:#20B2AA;
 }
 /*bdlo color lbghito wlkin mtms7uch --main-color*/
-#slider{
-	width: 100%;
-}
-.carousel-caption{
-	top: 50%;
-	transform: translateY(-50%);
-	bottom: initial!important;
-}
-.carousel-caption h5{
-color: black;
-font-size: 42px; 
-margin-top: 350px;
-}
+body
+{
+  background-image: linear-gradient(to bottom, black, gray);
+  background-size: cover;
 
-
-/*ana ra bdalt drop down logo ayji fjanb */
+}
 .logo
 {
   height: 80px;
@@ -27,14 +17,12 @@ margin-top: 350px;
 }
 .nav1
 {   
-    background-image: linear-gradient(to bottom right, white, black);
-    overflow: auto;
     height: 60px;
     padding-top: 15px;
 }
 .drop
 {
-    margin-right: 400px
+    margin-right: 100px
 }
 .drop li
 {
@@ -53,37 +41,8 @@ margin-top: 350px;
     color:#20B2AA;
     border-bottom: solid 1px #20B2AA
 }
-.sign
-{
-    position: absolute;
-    right: 10px;
-    top:10px;
-}
-.sign li
-{
-  float: left;
-  display: inline;
-  margin-right: 20px;
-}
-.sign #sign_up 
-{
-    background-color:#20B2AA;
-    width: 80px;
-    height: 40px;
-    text-align:center;
-    padding-top:8px;
-    border-radius:5px;
-}
-.sign #sign_in 
-{
-    width: 80px;
-    height: 40px;
-    text-align:center;
-    padding-top:8px;
-    border: solid 1px #20B2AA;
-    border-radius:5px;
-}
-.sign #sign_up a
+
+
 {
    color: white;
    font-size: 16px
@@ -104,7 +63,7 @@ margin-top: 350px;
 .introduction-text{
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 40%;
     transform: translate(-50%,-50%);
     z-index: 2;
     color: #fff;
@@ -117,168 +76,60 @@ color: #fff !important;
 .introduction-text h1 span{
     color:var(--main-color);
 }
+.features
+{
+  width: 1100px;
+  height: 400px;
+  margin-left: 130px;
+  margin-top: 320px;
+  padding-left: 120px;
+  background-image:url('../pictures/back.jpg');
+  background-size: cover;
+  box-shadow: -5px -5px 8px #20B2AA, 5px 5px 8px yellow;
+}
+.features .feat-box {
+  width: calc(100% / 5);
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom:10px; 
+  box-shadow: -5px -5px 8px #20B2AA, 5px 5px 8px yellow;
+  margin-right: 40px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.features .feat-box img {
+    width: 300px;
+    margin-left: -40px ;
+}
+.features .feat-box h4 {
+   font-size: 22px;
+   margin: 15px 0 40px;
+   position: relative;
+  color:#7bb9ae;
+}
+.features .feat-box h4:before{
+ content: ''; 
+ width: 40px;
+ height: 4px;
+ background-color: var(--main-color);
+ position: absolute;
+ left: 50%;
+ margin-left: -20px;
+ bottom: -22px;
+}
+.features .feat-box p {
+   width: 120px;
+   margin: 0 auto;
+   line-height: 1.7;
+   color: #a7a7a7f0;
+
+}
+/*End our features*/
+.recize-pic{
+  height: 150px;
+  margin-right: 100px;
+object-fit: cover;
+object-position: center center;
+}
 /* END TEXT INTRODUCTION*/
-/* Start Contact US (ADD BY YOUSSEF)*/
-.contact {
-min-height: 600px;
-background-image: url('../pictures/maps.png');
-background-size: cover;
-padding-top: 80px;
-padding-bottom: 80px;
-position: absolute;
-bottom: -800px;
-width: 1330px;
-margin-left: 6px
-}
-.contact .overlay{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, .6);
-}
-.contact .container{
-    position: relative;
-    z-index: 2 
-}
-.contact h2 {
-    font-weight: bold;
-    font-size: 30px;
-    color: var(--main-color);
-    margin: 0 0 60px;
-    text-align: center;
-}
-.contact form {
-    overflow: hidden;
-    max-width: 800px;
-    margin: auto;
-}
-.contact form .left {
-float: left;
-width: 47%;
-}
-.contact form .right{
-float: right;
-width: 47%;
-}
-.contact form input:not([type="Submit"]),
-.contact form textarea {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #CCC;
-    background-color: rgba(218, 218, 218, 0.19);
-}
-.contact form input:not([type="Submit"]):focus,
-.contact form textarea:focus{
-    outline: 1px solid var(--main-color);
-}
-.contact form input {
-    height: 40px;
-}
-.contact form textarea {
-    height: 150px;
-}
-.contact form input[type="Submit"]{
-padding: 10px;
-width: 100%;
-border-color: transparent;
-background-color: var(--main-color);
-color: #fff;
-cursor: pointer;
-}
-.contact form textarea:focus::-webkit-input-placeholder ,
-.contact form input:not([type="Submit"]):focus::-webkit-input-placeholder {
-  opacity: 0;
-  transition: .3s;  
-}
-.contact form textarea:focus:-ms-input-placeholder,
-.contact form input:not([type="Submit"]):focus:-ms-input-placeholder {
-  opacity: 0;
-  transition: .3s;  
-}
-.contact form textarea:focus::placeholder 
-.contact form input:not([type="Submit"]):focus::placeholder{
-  opacity: 0;
-  transition: .3s;  
-}
-/* End Contact US*/
-
-/*team's section*/
-#team{
-	padding-top: 50px;
-	padding-bottom: 50px;
-	color: #555;
-}
-h1{
-	text-align: center;
-	color: #555!important;
-	padding-bottom: 10px;
-}
-h1::after{
-	content: '';
-	background: #007bff;
-	display: block;
-	height: 3px;
-	width: 170px;
-	margin:20px auto 5px;
-}
-.profile-pic{
-	margin-top: 25px;
-
-}
-.profile-pic .img-box{
-	opacity: 1;
-	display: block;
-	position: relative;
-	
-}
-.profile-pic .img-box img{
-filter: grayscale(0);
-cursor: pointer;
-	
-}
-.profile-pic h2{
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 15px;
-	color:#007bff!important;
-
-
-}
-.profile-pic h3{
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 15px;
-}
-#team .fa{
-height: 25px;
-width: 25px;
-color:#007bff!important;
-background:#fff;
-padding: 4px;
-border-radius: 50%;
-}
-.img-box ul{
-	padding: 15px 0;
-	position: absolute;
-	z-index: 2;
-	bottom: 0;
-	left: 50%;
-	transform: translateX(-50%);
-	opacity: 0;
-}
-.img-box ul li{
-	padding: 5px;
-	display: inline-block;
-}
-.img-box:hover ul{
-	opacity: 1;
-
-}
-img-box ul,.img-box ul li{
-transition: 0.5s;
-}
-/*team's section end*/

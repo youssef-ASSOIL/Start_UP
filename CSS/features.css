@@ -8,7 +8,6 @@ body
 {
     background-image: url('../pictures/back.jpg');
     background-size:cover;
-
 }
 .logo
 {
@@ -18,14 +17,12 @@ body
 }
 .nav1
 {
-     background-image: linear-gradient(to bottom right, white, black);
-    overflow: auto;
     height: 60px;
     padding-top: 15px;
 }
 .drop
 {
-    margin-right: 400px
+    margin-right: 100px
 }
 .drop li
 {
@@ -43,46 +40,6 @@ body
 {
     color:#20B2AA;
     border-bottom: solid 1px #20B2AA
-}
-.sign
-{
-    position: absolute;
-    right: 10px;
-    top:10px;
-}
-.sign li
-{
-  float: left;
-  display: inline;
-  margin-right: 20px;
-}
-.sign #sign_up 
-{
-    background-color:#20B2AA;
-    width: 80px;
-    height: 40px;
-    text-align:center;
-    padding-top:8px;
-    border-radius:5px;
-}
-.sign #sign_in 
-{
-    width: 80px;
-    height: 40px;
-    text-align:center;
-    padding-top:8px;
-    border: solid 1px #20B2AA;
-    border-radius:5px;
-}
-.sign #sign_up a
-{
-   color: white;
-   font-size: 16px
-}
-.sign #sign_in a
-{
-   color: #20B2AA;
-   font-size: 16px
 }
 #logo
 {
