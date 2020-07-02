@@ -6,3 +6,5 @@ Easy By Code
 a youssef editer dak text d slider
 wdak our team 
 hadik rah tache dialk 
+
+###drari makhdma mawalou hadi .zyronna chwya .
